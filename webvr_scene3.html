@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html>
+<head>
+<script src="https://aframe.io/releases/0.2.0/aframe.min.js"></script>
+</head>
+
+<body>
+ <a-assets>
+        <img id="pokeball" src="pokeball.png">
+        </a-assets>
+
+<a-scene>
+
+<a-sphere src="#pokeball" radius=".5" position="6 5 .5"></a-sphere>
+  <a-event name="mousecenter" scale="4 10 6"></a-event>
+      </a-box>
+      <a-camera position="0 7 5">
+        <a-cursor color="red"></a-cursor>
+        </a-camera>
+<a-sky src="vr3.jpg"></a-sky>
+</a-scene>
+
+
+
+</body>
+</html>
